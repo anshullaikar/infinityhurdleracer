@@ -1,4 +1,4 @@
-Infinity Hurdle Racer 0.1
+# Infinity Hurdle Racer 0.1
 This is a simple game I made using pygame in python.
 
 To open the game you must have the pygame library installed.
