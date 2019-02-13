@@ -215,7 +215,7 @@ def game_loop(continue_game=True, game_speed=0):
         elif game_speed_multiplier > 3.3 and change_x < 12:
             change_x *= 1.002
             game_speed_multiplier *= 1.0008
-        logging.info(game_speed_multiplier)
+        logging.info("speed multiplier: "+game_speed_multiplier)
         game_display.blit(runner_img, (runner_width, runner_height))
 
 
@@ -223,5 +223,5 @@ while restart:
     game_loop()
     walk_count = 0
     c += 1
-    print(c)
+    logging.info("runs: "+c)
 pygame.quit()
